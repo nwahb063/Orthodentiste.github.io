@@ -1,0 +1,119 @@
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+  
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+  
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+  
+  /* Bootstrap default font-family is Helvetica Neue */
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    /* text-shadow: 3px 3px 1px black; */
+  }
+  
+  body {
+    background-color: #AA998F;
+  }
+  
+  .img-center {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .div-information {
+    padding-top: 50px;
+  }
+  
+  /* Theme
+  https://coolors.co/cc8b86-f9eae1-7d4f50-d1be9c-aa998f
+  
+  #7D4F50
+  #F9EAE1
+  #F9EAE1
+  #F9EAE1
+  #AA998F
+  
+  */
+  
+  .navbar {
+    background-color: #7D4F50;
+    max-height: 50px;
+  }
+  
+  /* Section */
+  body { padding-top: 75px; }
+  
+  .welcome-container, .title-container {
+    background-color: #7D4F50;
+    color: white;
+  }
+  
+  .div-container {
+    background-color: white;
+  }
+  
+  .div-text-align {
+    text-align: center;
+  }
+  
+  footer {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #695950;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .footer {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  #footer-email {
+    float: right;
+    color: white;
+    padding-right: 100px;
+  }

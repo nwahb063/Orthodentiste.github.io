@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+   
+   <head>
+       <link href="styles/styleLab5.css" rel="stylesheet" type="text/css" />
+
+      <title>Module 5</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+
+      <!-- Style sheet (CSS) and JavaScript scripts necessary to use JQuery as well as JQueryUI library -->
+      <!-- which is built on top of JQuery and offers additional possibilities -->
+      <!-- For example, JQuery UI has a datepicker which is popular and that we can use -->
+      <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/excite-bike/jquery-ui.css" rel="stylesheet" type="text/css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
+      <!-- Your own script -->
+      <script src="scripts/lab5.js"></script>
+
+      <!-- Your own additional style sheet -->
+       <link href="/styles/styleLab5.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+         <a class="navbar-brand" href="#">    
+         <img src="./images/logo.png" alt="logo" style="width:100px; height:70px;">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link" href="#">
+                  Accueil
+                  <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#StyleCrew">L'équipe</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#Prices">Prix</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#Appointment">Rendez-Vous</a>
+            </li>
+         </div>
+      </nav>
+      <!-- Medium size container, padding 3, margins 3, background dark, text is white -->
+      <!-- Should show the name of your company with an image or logo -->
+      <!-- Bootstrap has its own font for H1, H2, p, etc.  -->
+      <!-- Look in BS4 Typography https://www.w3schools.com/bootstrap4/bootstrap_typography.asp -->
+      <!-- Use your own CSS file to change those fonts if they do not correspond to your company's look -->
+      <div class="container-md p-3 my-3 border text-white div-Center welcome-container div-text-align" id="Home">
+         <h1>Votre sourire est notre priorité</h1>
+         <p>Prévention,Sourire,Esthétique</p>
+      </div>
+      <div class="container-md p-3 my-3 border div-container" id="StyleCrew">
+         <div class="row">
+            <div class="col-md-7 order-md-2">
+               <h2>Avez vous besoin de notre  <span class="text-muted">Aide</span></h2>
+               <p class="lead" style="text-align: justify;">Sachez aussi que le choix de protéger, d’entretenir et de soigner ses dents appartient à chacun. Plus les consultations sont fréquentes, plus le coût des soins baisse. Pour garder vos dents toute la vie, effectuer une visite de contrôle au moins une fois par an, est indispensable.
+               </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+            
+               <img class="featurette-image img-fluid mx-auto" src="./images/Local.png" alt="Generic placeholder image">
+            </div>
+         </div>
+         <hr>
+      </div>
+      <!-- Free image https://www.freepik.com/free-vector/hairdresser-human-characters-set_5972207.htm#page=1&query=hairdresser%20beauty%20salon&position=11 -->
+      <div class="container-md p-3 my-3 border div-container div-text-align" id="Prices">
+         <!-- Three columns of text below the carousel -->
+         <h2>Notre équipe</h2>
+         <hr>
+         <div class="row">
+            <div class="col-lg-4 div-Center">
+               <img class="rounded-circle" src="./images/Gabriel.png" alt="Generic placeholder image" width="140" height="140">
+               <h2>Dr Gabriel</h2>
+               <p style="text-align: justify;">Gabriel, Docteur connue pour ses compétences en Chirurgie Dentaire il est aussi très communicatif avec ces patients, avec lui le patient va recevoir une explication claire et précise ce qui va lui permettre de bien poursuivre le traitement recommandé.</p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 div-Center">
+               <img class="rounded-circle" src="./images/David.png" alt="Generic placeholder image" width="140" height="140">
+               <h2>Dr David</h2>
+               <p style="text-align: justify;">Docteur David, est un docteur qui au-delà de ces compétences en chirurgie dentaire il est réputé comme étant un médecin chaleureux attentif et qui a des connaissances humaines, avec lui les patients se sentent confortable de parler librement, ce qui a un grand impact sur le processus suivi.</p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 div-Center">
+               <img class="rounded-circle" src="./images/Thomas.png" alt="Generic placeholder image" width="140" height="140">
+               <h2>Dr Thomas</h2>
+               <p style="text-align: justify;">Docteur thomas est un docteur en chirurgie dentaire réputé,avec plus de 30 ans d'experience dans le domaine vu qu'il est efficace et produit les meilleurs soins.</p>
+            </div>
+            <!-- /.col-lg-4 -->
+         </div>
+         <!-- /.row -->
+      </div>
+      <div class="container-md p-3 my-3 border div-container" id="Appointment">
+         <div class="container div-text-align">
+            <h2>Nos Prix</h2>
+            <hr>
+            <div class="card-deck mb-3 text-center">
+               <div class="card mb-4 box-shadow">
+                  <div class="card-header title-container">
+                     <h4 class="my-0 font-weight-normal">Chirurgie Orthognatique</h4>
+                  </div>
+                  <div class="card-body">
+                     <h2 class="card-title pricing-card-title">$5000</small></h2>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li><b>Includes</b></li>
+                        <li>Trim and clean up</li>
+                     </ul>
+                     <!-- <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+                  </div>
+               </div>
+               <div class="card mb-4 box-shadow">
+                  <div class="card-header title-container">
+                     <h4 class="my-0 font-weight-normal">Orthodontie fonctionnelle</h4>
+                  </div>
+                  <div class="card-body">
+                     <h2 class="card-title pricing-card-title">$3900</small></h2>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li><b>Includes</b></li>
+                        <li>Wash and Cut</li>
+                        <li>Style and set</li>
+                     </ul>
+                     <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+                  </div>
+               </div>
+               <div class="card mb-4 box-shadow">
+                  <div class="card-header title-container">
+                     <h4 class="my-0 font-weight-normal">Orthodontie d’interception</h4>
+                  </div>
+                  <div class="card-body">
+                     <h2 class="card-title pricing-card-title">$2700</small></h2>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li><b>Includes</b></li>
+                        <li>The works including</li>
+                        <li>highlights and extentsions</li>
+                     </ul>
+                     <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <!-- Collapsible with multiple items - accordion -->
+         <!-- https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp -->
+         <!-- As we want to do a vertical navigation better suited for mobile design, an accordion pattern -->
+         <!-- could work well.  You can use other patterns too.  This is just an example. -->
+         <div class="container">
+            <div class="container-md p-3 my-3 border text-white div-Center welcome-container">
+               <h1>Rendez-Vous</h1>
+            </div>
+            <div id="accordion">
+               <div class="card">
+                  <div class="card-header">
+                     <a class="card-link" data-toggle="collapse" href="#collapseService">
+                        <h4> Choix de service </h4>
+                     </a>
+                  </div>
+                  <div id="collapseService" class="collapse show" data-parent="#accordion">
+                     <div class="card-body">
+                        <div class="container">
+                           <h5>Afin de prendre un rendez-vous veuillez choisir parmis nos spécialistes et le type de traitement que vous souhaitez poursuivre.</h5>
+                           <hr>
+                           <div class="row">
+                              <div class="col-sm">
+                                 <p>notre équipe</p>
+                                 <div class="radio">
+                                    <label><input type="radio" name="crewchosen" value="1"> David <b>pas disponible Mercredi et Dimanche</b></label>
+                                 </div>
+                                 <div class="radio">
+                                    <label><input type="radio" name="crewchosen" value="2"> Gabriel <b>Pas disponible Mardi et Dimanche</b></label>
+                                 </div>
+                                 <div class="radio">
+                                    <label><input type="radio" name="crewchosen" value="3"> Thomas <b>Pas disponible Dimanche</b></label>
+                                 </div>
+                              </div>
+                              <div class="col-sm">
+                                 <p>Voici notre liste de service</p>
+                                 <div class="radio">
+                                    <label><input type="radio" name="stylechoice" value="1">Chirurgie Orthognatique</label>
+                                 </div>
+                                 <div class="radio">
+                                    <label><input type="radio" name="stylechoice" value="2">Orthodontie fonctionnelle</label>
+                                 </div>
+                                 <div class="radio">
+                                    <label><input type="radio" name="stylechoice" value="3">Orthodontie d’interception</label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header">
+                     <a class="collapsed card-link" data-toggle="collapse" href="#collapseDate">
+                        <h4><i class="material-icons">event</i> Choix d'une date</h4>
+                     </a>
+                  </div>
+                  <div id="collapseDate" class="collapse" data-parent="#accordion">
+                     <div class="card-body">
+                        <!-- Bootstrap has various input components. Some examples are given here: -->
+                        <!-- Component shown here: https://v4-alpha.getbootstrap.com/components/forms/#textual-inputs -->
+                        <div class="form-group row">
+                           <label for="dateTimeInput" class="col-2 col-form-label">Date et heure</label>
+                           <div class="col-10">
+                              <div class="input-group">
+                                 <input class="form-control" type="text" id="dateInput" title="Before picking your Appointment date please select a Style Crew member and the service you want.">
+                                 <div class="input-group-append">
+                                    <span class="input-group-text">
+                                    <i class="material-icons md-18">event</i>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header">
+                     <a class="collapsed card-link" data-toggle="collapse" href="#collapseClientInfo">
+                        <h4><i class="material-icons">perm_identity</i> vos informations</h4>
+                     </a>
+                  </div>
+                  <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
+                     <div class="card-body">
+                        <p>Veuilles entrez vos informations afin qu'on puisse vous contacter</p>
+                        <form>
+                           <div class="form-group">
+                              <label for="name">Nom et Prénom</label>
+                              <div class="input-group">
+                                 <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Entrez votre Nom et prénom " title="Enter your full name">
+                                 <div class="input-group-append">
+                                    <span class="input-group-text">
+                                    <i class="material-icons md-18">account_box</i>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label for="email">Email</label>
+                              <div class="input-group">
+                                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Veuilles entrez votre Email" title="Enter a email that we can reach you">
+                                 <div class="input-group-append">
+                                    <span class="input-group-text">
+                                    <i class="material-icons md-18">email</i>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label for="phone">Numéro de téléphone</label>
+                              <div class="input-group">
+                                 <input type="tel" class="form-control" id="phone" name="phone" placeholder="(XXX) XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Enter a phone number that we can reach you">
+                                 <div class="input-group-append">
+                                    <span class="input-group-text">
+                                    <i class="material-icons md-18">local_phone</i>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header">
+                     <a class="collapsed card-link" data-toggle="collapse" href="#collapsePayment">
+                        <h4><i class="material-icons">payment</i> Payement</h4>
+                     </a>
+                  </div>
+                  <div id="collapsePayment" class="collapse" data-parent="#accordion">
+                     <div class="card-body">
+                        <!-- Code take from https://bbbootstrap.com/snippets/simple-payment-credit-card-form-41641728 -->
+                        <div class="row justify-content-center">
+                           <div class="col-sm-6">
+                              <div class="card">
+                                 <div class="card-header">
+                                    <strong>Credit Card</strong>
+                                 </div>
+                                 <div class="card-body">
+                                    <div class="row">
+                                       <div class="col-sm-12">
+                                          <div class="form-group">
+                                             <label for="nameCreditCard">Nom du titulaire de la carte</label>
+                                             <div class="input-group">
+                                                <input class="form-control" id="nameCreditCard" type="text" placeholder=" Veuillez entrez le Nom et Prénom" title="This can be found on your credit card">
+                                                <div class="input-group-append">
+                                                   <span class="input-group-text">
+                                                   <i class="material-icons md-18">account_box</i>
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-sm-12">
+                                          <div class="form-group">
+                                             <label for="ccnumber">Numéro de Carte de Crédit</label>
+                                             <div class="input-group">
+                                                <input class="form-control" id="creditCard" maxlength="19" type="text" placeholder="0000 0000 0000 0000" autocomplete="email" title="This can be found on your credit card">
+                                                <div class="input-group-append">
+                                                   <span class="input-group-text">
+                                                   <i class="material-icons md-18">credit_card</i>
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="form-group col-sm-4">
+                                          <label for="ccmonth">Mois</label>
+                                          <select class="form-control" id="ccmonth">
+                                             <option>1</option>
+                                             <option>2</option>
+                                             <option>3</option>
+                                             <option>4</option>
+                                             <option>5</option>
+                                             <option>6</option>
+                                             <option>7</option>
+                                             <option>8</option>
+                                             <option>9</option>
+                                             <option>10</option>
+                                             <option>11</option>
+                                             <option>12</option>
+                                          </select>
+                                       </div>
+                                       <div class="form-group col-sm-4">
+                                          <label for="ccyear">Année</label>
+                                          <select class="form-control" id="ccyear">
+                                             <option>2021</option>
+                                             <option>2022</option>
+                                             <option>2023</option>
+                                             <option>2024</option>
+                                             <option>2025</option>
+                                             <option>2026</option>
+                                             <option>2027</option>
+                                             <option>2028</option>
+                              
+                                          </select>
+                                       </div>
+                                       <div class="col-sm-4">
+                                          <div class="form-group">
+                                             <label for="cvv">CVV/CVC</label>
+                                             <input class="form-control" maxlength="3" id="cvv" type="text" placeholder="123" title="CVV is the last three digits on the back of your credit card">
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="card-footer">
+                                    <button class="btn btn-sm btn-success float-right" type="submit" id="confirm">
+                                    <i class="mdi mdi-gamepad-circle"></i> Confirmer votre rendez-vous</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr>
+            <div class="row">
+               <div class="col-md-7 order-md-2 div-text-align div-information">
+                  <p class="lead"><b>Address:</b> 356 Rideau St</p>
+                  <p class="lead"><b>City:</b> Ottawa</p>
+                  <p class="lead"><b>Zip Code:</b> K1N 5Y8</p>
+                  <p class="lead"><b>Phone Number:</b> 613-214-5219</p>
+               </div>
+               <div class="col-md-5 order-md-1">
+                  <!-- Image free use on googlemap -->
+                  <img class="featurette-image img-fluid mx-auto" src="./images/map.PNG" alt="Generic placeholder image">
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+   <footer>
+      <!-- <div class="footer"> -->
+      <h5 id="footer-email">
+      Nabil Wahbi
+      <h5>
+      <!-- </div> -->
+   </footer>
+</html>
